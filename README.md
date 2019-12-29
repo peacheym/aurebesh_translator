@@ -1,6 +1,6 @@
 # Aurebesh Translator
 
-*"**Aurebesh is a writing system used to transcribe Galactic Basic, one of the most used languages in the Star Wars Universe."***
+*"**Aurebesh** is a writing system used to transcribe Galactic Basic, one of the most used languages in the Star Wars Universe."*
 
 ## Preview
 

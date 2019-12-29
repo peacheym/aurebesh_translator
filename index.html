@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+	<title>Aurebesh Translator</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
+	
+	<div id="translator">
+
+		<div id="header">
+			<h1>Aurebesh Translator</h1>
+		</div>
+
+		<div id="main">
+			<p class="label to_hide">Enter English text:</p>
+			<input type="text" class="to_hide" id="input"></input>
+			<button class="to_hide" onclick="loading()">Translate</button>
+
+			<div id="loading" class="lds-dual-ring"></div>
+
+			<p class="label label_a to_hide">Aurebesh text:</p>
+			<p class="translated to_hide">Hello, World!</p>
+		</div>
+	</div>
+
+	<script>
+		let to_hide = document.getElementsByClassName("to_hide");
+		let timer
+		function loading(){
+			document.getElementById("loading").style.display = "block";
+			for(i=0; i<to_hide.length;i++){
+				to_hide[i].style.display = "none"
+			}
+			document.getElementsByClassName("translated")[0].innerHTML = document.getElementById("input").value;
+			timer = setInterval(function(){showAll()}, 600);
+		}
+
+		function showAll(){
+			clearInterval(timer)
+			document.getElementById("loading").style.display = "none";
+			for(i=0; i<to_hide.length;i++){
+				to_hide[i].style.display = "block"
+			}
+		}
+	</script>
+
+</body>

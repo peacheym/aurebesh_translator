@@ -4,8 +4,7 @@
 
 ## Preview
 
-<p align="left"><img src=".readme/Aurebesh_large.png" width="550px"><br>
-<img src=".readme/repo-example.png" width="1000px"></p>
+<p align="left"><img src=".readme/Aurebesh_small.png" width="550px"></p>
 
 ## Usage
 

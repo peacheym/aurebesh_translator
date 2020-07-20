@@ -24,4 +24,4 @@ This project was built with:
 
 ## Acknowledgements
 
-Thank you to the developers that created the resources I used to implment this project!
+Thank you to the developers that created the resources I used to implement this project!

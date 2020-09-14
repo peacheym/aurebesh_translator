@@ -9,7 +9,7 @@
 
 ## Usage
 
-To utilize the translator, please visit [this](https://web.cs.dal.ca/~peachey/aurebesh) link.
+To utilize the "translator", please visit [this](https://web.cs.dal.ca/~peachey/aurebesh) link.
 
 ## Technical Details
 
@@ -25,3 +25,6 @@ This project was built with:
 ## Acknowledgements
 
 Thank you to the developers that created the resources I used to implement this project!
+
+### Spoilers
+This is not a real translator -- It is simply a "font switcher" with a fun star background! A super fun project nonetheless. 
